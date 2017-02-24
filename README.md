@@ -12,5 +12,3 @@ Required:
 - API registration from reddit: "You get this information by going to reddit.com/prefs/apps and clicking "are you a developer?  Create an app..."
 
 - Enter the api regestration info in lines 25-29
-
-Enjoy!
