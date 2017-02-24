@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf-8')
 
 def downloadBandNames(get_all_or_new = 'new', quiet = False):
 	# Download band names
-	# When get_all_or new == 'all', more duplicates are downloaded, but
+	# When get_all_or_new == 'all', more duplicates are downloaded, but
 	# up votes are also updated.  When it == 'new', it breaks sooner
 	global current_band_names, unsaved_band_names
 	# Fix get_all_or_new variable in case of user error
