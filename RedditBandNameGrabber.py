@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 
 ## Reads the band names on reddit/r/Bandnames
-
 import praw
 import os
 from time import time,sleep
 
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
-
 
 def downloadBandNames(get_all_or_new = 'new', quiet = False):
 	# Download band names
