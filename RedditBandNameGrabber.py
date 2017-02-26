@@ -23,10 +23,10 @@ def downloadBandNames(get_all_or_new = 'new', quiet = False):
 	
 	# Login credentials
 	reddit = praw.Reddit(client_id = '[CLIENT ID (no brackets)]',
-					client_secret = '[CLIENT SECRET (no brackets)]',
-					password = '[PASSWORD (no brackets)',
-					user_agent = 'linux:bandnamegenerator:v0.0.3 (by [USER NAME] (no brackets))',
-					user_name = '[USER NAME] (no brackets)'
+					client_secret = '[CLIENT SECRET] (without brackets)',
+					password = '[PASSWORD] (without brackets)',
+					user_agent = 'linux:bandnamegenerator:v0.0.3 (by [USER NAME] (without brackets))',
+					user_name = '[USER NAME] (without brackets)'
 					)
 
 	# Break when there are duplicates
